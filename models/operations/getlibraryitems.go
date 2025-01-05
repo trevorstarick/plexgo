@@ -606,6 +606,7 @@ const (
 	GetLibraryItemsLibraryTypeTvShow  GetLibraryItemsLibraryType = "show"
 	GetLibraryItemsLibraryTypeSeason  GetLibraryItemsLibraryType = "season"
 	GetLibraryItemsLibraryTypeEpisode GetLibraryItemsLibraryType = "episode"
+	GetLibraryItemsLibraryTypeTrack   GetLibraryItemsLibraryType = "track"
 )
 
 func (e GetLibraryItemsLibraryType) ToPointer() *GetLibraryItemsLibraryType {
@@ -624,6 +625,8 @@ func (e *GetLibraryItemsLibraryType) UnmarshalJSON(data []byte) error {
 	case "season":
 		fallthrough
 	case "episode":
+		fallthrough
+	case "track":
 		*e = GetLibraryItemsLibraryType(v)
 		return nil
 	default:
