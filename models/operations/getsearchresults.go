@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"github.com/LukeHagar/plexgo/internal/utils"
+	"github.com/trevorstarick/plexgo/internal/utils"
 	"net/http"
 	"time"
 )

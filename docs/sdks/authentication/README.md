@@ -25,8 +25,8 @@ package main
 
 import(
 	"context"
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/trevorstarick/plexgo"
+	"github.com/trevorstarick/plexgo/models/operations"
 	"log"
 )
 
@@ -81,7 +81,7 @@ package main
 
 import(
 	"context"
-	"github.com/LukeHagar/plexgo"
+	"github.com/trevorstarick/plexgo"
 	"log"
 )
 
@@ -133,7 +133,7 @@ package main
 
 import(
 	"context"
-	"github.com/LukeHagar/plexgo"
+	"github.com/trevorstarick/plexgo"
 	"log"
 )
 
@@ -184,8 +184,8 @@ package main
 
 import(
 	"context"
-	"github.com/LukeHagar/plexgo"
-	"github.com/LukeHagar/plexgo/models/operations"
+	"github.com/trevorstarick/plexgo"
+	"github.com/trevorstarick/plexgo/models/operations"
 	"log"
 )
 

@@ -6,7 +6,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/LukeHagar/plexgo/retry"
+	"github.com/trevorstarick/plexgo/retry"
 	"math"
 	"math/rand"
 	"net/http"

@@ -4,7 +4,7 @@ package main
 
 import (
 	"context"
-	"github.com/LukeHagar/plexgo"
+	"github.com/trevorstarick/plexgo"
 	"log"
 )
 

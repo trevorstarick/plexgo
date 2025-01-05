@@ -3,8 +3,8 @@
 package operations
 
 import (
-	"github.com/LukeHagar/plexgo/internal/utils"
-	"github.com/LukeHagar/plexgo/types"
+	"github.com/trevorstarick/plexgo/internal/utils"
+	"github.com/trevorstarick/plexgo/types"
 	"net/http"
 )
 

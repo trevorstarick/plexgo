@@ -6,10 +6,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/LukeHagar/plexgo/internal/hooks"
-	"github.com/LukeHagar/plexgo/internal/utils"
-	"github.com/LukeHagar/plexgo/models/components"
-	"github.com/LukeHagar/plexgo/retry"
+	"github.com/trevorstarick/plexgo/internal/hooks"
+	"github.com/trevorstarick/plexgo/internal/utils"
+	"github.com/trevorstarick/plexgo/models/components"
+	"github.com/trevorstarick/plexgo/retry"
 	"net/http"
 	"time"
 )
@@ -89,7 +89,7 @@ func (c *sdkConfiguration) GetServerDetails() (string, map[string]string) {
 // | --------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------- |
 // | Python                | [GitHub](https://github.com/LukeHagar/plexpy)     | [PyPI](https://pypi.org/project/plex-api-client/)                                                | -                                                       |
 // | JavaScript/TypeScript | [GitHub](https://github.com/LukeHagar/plexjs)     | [NPM](https://www.npmjs.com/package/@lukehagar/plexjs) \ [JSR](https://jsr.io/@lukehagar/plexjs) | -                                                       |
-// | Go                    | [GitHub](https://github.com/LukeHagar/plexgo)     | [Releases](https://github.com/LukeHagar/plexgo/releases)                                         | [GoDoc](https://pkg.go.dev/github.com/LukeHagar/plexgo) |
+// | Go                    | [GitHub](https://github.com/trevorstarick/plexgo)     | [Releases](https://github.com/trevorstarick/plexgo/releases)                                         | [GoDoc](https://pkg.go.dev/github.com/trevorstarick/plexgo) |
 // | Ruby                  | [GitHub](https://github.com/LukeHagar/plexruby)   | [Releases](https://github.com/LukeHagar/plexruby/releases)                                       | -                                                       |
 // | Swift                 | [GitHub](https://github.com/LukeHagar/plexswift)  | [Releases](https://github.com/LukeHagar/plexswift/releases)                                      | -                                                       |
 // | PHP                   | [GitHub](https://github.com/LukeHagar/plexphp)    | [Releases](https://github.com/LukeHagar/plexphp/releases)                                        | -                                                       |
@@ -300,7 +300,7 @@ func New(opts ...SDKOption) *PlexAPI {
 			OpenAPIDocVersion: "0.0.3",
 			SDKVersion:        "0.17.1",
 			GenVersion:        "2.483.1",
-			UserAgent:         "speakeasy-sdk/go 0.17.1 2.483.1 0.0.3 github.com/LukeHagar/plexgo",
+			UserAgent:         "speakeasy-sdk/go 0.17.1 2.483.1 0.0.3 github.com/trevorstarick/plexgo",
 			ServerDefaults: []map[string]string{
 				{
 					"protocol": "https",

@@ -31,5 +31,5 @@ go:
   maxMethodParams: 4
   methodArguments: require-security-and-request
   outputModelSuffix: output
-  packageName: github.com/LukeHagar/plexgo
+  packageName: github.com/trevorstarick/plexgo
   responseFormat: envelope

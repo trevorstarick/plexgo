@@ -5,8 +5,8 @@ package operations
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/LukeHagar/plexgo/internal/utils"
-	"github.com/LukeHagar/plexgo/types"
+	"github.com/trevorstarick/plexgo/internal/utils"
+	"github.com/trevorstarick/plexgo/types"
 	"net/http"
 )
 

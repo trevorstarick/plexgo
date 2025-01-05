@@ -6,11 +6,11 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/LukeHagar/plexgo/internal/hooks"
-	"github.com/LukeHagar/plexgo/internal/utils"
-	"github.com/LukeHagar/plexgo/models/operations"
-	"github.com/LukeHagar/plexgo/models/sdkerrors"
-	"github.com/LukeHagar/plexgo/retry"
+	"github.com/trevorstarick/plexgo/internal/hooks"
+	"github.com/trevorstarick/plexgo/internal/utils"
+	"github.com/trevorstarick/plexgo/models/operations"
+	"github.com/trevorstarick/plexgo/models/sdkerrors"
+	"github.com/trevorstarick/plexgo/retry"
 	"net/http"
 )
 

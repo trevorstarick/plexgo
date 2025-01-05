@@ -4,8 +4,8 @@ package operations
 
 import (
 	"errors"
-	"github.com/LukeHagar/plexgo/internal/utils"
-	"github.com/LukeHagar/plexgo/retry"
+	"github.com/trevorstarick/plexgo/internal/utils"
+	"github.com/trevorstarick/plexgo/retry"
 	"time"
 )
 
