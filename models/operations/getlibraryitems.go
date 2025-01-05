@@ -223,6 +223,8 @@ type GetLibraryItemsRequest struct {
 	// By default this is 50
 	//
 	XPlexContainerSize *int `default:"50" queryParam:"style=form,explode=true,name=X-Plex-Container-Size"`
+
+	Parent *string `queryParam:"style=form,explode=true,name=parent"`
 }
 
 func (g GetLibraryItemsRequest) MarshalJSON() ([]byte, error) {
